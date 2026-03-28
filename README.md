@@ -163,9 +163,7 @@ AI Search → Download → Thumbnail → Description → Process → Upload → 
    - Client ID, Client Secret, Refresh Token
    - Guide: [Setup Instructions](#youtube-api-setup)
 
-3. **GitHub Personal Access Token** (FREE)
-   - For auto-commit and push
-   - Requires `repo` scope
+**Note:** GitHub auto-push has been removed. You can manually push code using standard git commands.
 
 ---
 
@@ -221,11 +219,6 @@ NVIDIA_IMAGE_API_KEY=your_nvidia_image_key_here
 YOUTUBE_CLIENT_ID=your_client_id
 YOUTUBE_CLIENT_SECRET=your_client_secret
 YOUTUBE_REFRESH_TOKEN=your_refresh_token
-
-# GitHub (for auto-push)
-GITHUB_TOKEN=your_github_token
-GITHUB_USERNAME=your_username
-GITHUB_REPO=youtube-anime
 ```
 
 ### **4. Start Services**
